@@ -1,0 +1,85 @@
+body{
+	background-image: url(file:///Users/juliogomez/Desktop/WebDev/hampsonDesign/images/blueish.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.jumbotron{
+	text-align: center;
+	background-color: black;
+	height: 200px;
+	margin: 0;
+	background-color:transparent !important; 
+	padding: none;
+	margin-top: -15px;
+}
+.jumbotron h1 {
+	color: white;
+	font-size: 47px;
+	margin-top: 5px;
+}
+.jumbotron p {
+	color: white;
+	font-size: 25px;
+}
+.jumbotron a {
+	color: white;
+}
+#navbar {
+	width: 100%;
+}
+.navbar-default {
+	margin: 0;
+	background-color: white;
+	padding: 25px;
+	text-align: center;
+	opacity: 0.8;
+	margin-bottom: 10px;
+}
+.navbar-nav {
+	display: inline-block;
+	float: none;
+	color: black;
+}
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 580px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width */
+    height: 100%; /*img height*/
+}
+#myCarousel {
+	min-width: 100%;
+}
+.container {
+	margin: auto;
+}
+.border{
+	margin-top: 20px;
+	border-style: solid;
+	border : solid 25px rgba(0,0,0,0.5);
+}
+
+footer {
+	margin-top: 20px;
+ 	height: 120px;
+  	background-color: white;
+  	text-align: center;
+  	opacity: 0.8;
+
+}
+footer p{
+  	padding: 45px;
+  	font-size: 20px;
+  	color: black;
+}
+#footerDeuce {
+	margin: 0 auto;
+	margin-top: -10px;
+	height: 20px;
+  	background-color: white;
+  	text-align: center;
+  	opacity: 0.8;
+}
+
