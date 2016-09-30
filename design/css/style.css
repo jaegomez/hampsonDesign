@@ -99,10 +99,10 @@ html, body {
 .navbar-toggle {
   float: none;
 }
-.box {
+.aboutTextBox {
 	border-style: solid;
 	border-color: white;
- 	border-radius: 10%;
+ 	border-radius: 5%;
  	background-color: white;
  	opacity: 0.7;
 	margin: 0 auto;
@@ -115,13 +115,9 @@ html, body {
 	font-size: 30px;
 	color: black;
 }
-hr {
-	height: 2px;
-	background-color: #999999;
-	width: 40%;
-	margin-bottom: -10px;
-	margin-top: 5px;
-}
+
+/* Not in use momentarily
+
 .aboutText p {
 	margin-top: 40px;
 	float: none;
@@ -132,6 +128,7 @@ hr {
 	font-family: Arial;
 	letter-spacing: 1px;
 }
+*/
 
 @media (min-width: 800px) {
 	.aboutText p {
@@ -161,5 +158,25 @@ hr {
 #footer,
 .push {
 	height: 130px;
+}
+
+.businessBox {
+	margin-bottom: 10px;
+    padding: 20px;
+    background: #fff;
+    background: rgba(255,255,255,0.7);
+
+}
+#introText {
+	color: black;
+	
+	
+}
+#introHeader h2 {
+	text-align: center;
+	color: black; 
+	font-family: 'Habibi', serif; 
+	padding-bottom: 1px;
+	font-size: 20px;
 }
 
