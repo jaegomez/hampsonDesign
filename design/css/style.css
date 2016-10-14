@@ -122,33 +122,33 @@ html, body {
 }
 
 .borderKitchens {
-	margin-top: 20px;
 	border-style: solid;
-	border : solid white 10px;
+	border : solid 25px rgba(255,255,255,0.6);
+	border-top: solid 35px rgba(255,255,255,0.6);
 	margin: 20px auto;
 	max-width: 880px;
 }
 
 .borderBaths {
-	margin-top: 20px;
 	border-style: solid;
-	border : solid white 10px;
+	border : solid 25px rgba(255,255,255,0.6);
+	border-top: solid 35px rgba(255,255,255,0.6);
 	margin: 20px auto;
 	max-width: 880px;
 }
 
 .borderLivingRooms {
-	margin-top: 20px;
 	border-style: solid;
-	border : solid white 10px;
+	border : solid 25px rgba(255,255,255,0.6);
+	border-top: solid 35px rgba(255,255,255,0.6);
 	margin: 20px auto;
 	max-width: 880px;
 }
 
 .borderOffices {
-	margin-top: 20px;
 	border-style: solid;
-	border : solid white 10px;
+	border : solid 25px rgba(255,255,255,0.6);
+	border-top: solid 35px rgba(255,255,255,0.6);
 	margin: 20px auto;
 	max-width: 880px;
 }

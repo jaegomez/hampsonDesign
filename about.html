@@ -6,13 +6,16 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- Google Font links -->
   <link href="https://fonts.googleapis.com/css?family=Habibi" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
 
   <link rel="stylesheet" type="text/css" href="design/css/style.css">
 
@@ -21,214 +24,725 @@
 
 <div class="wrapper">
 
-<div class="jumbotron">
-<div id="content">
-  <h1>Hampson Design Construction Inc.</h1>
-  <p>Naples, FL | <a href="tel:1-239-272-2703">239.272.2703</a></p>
-</div>
-</div>
-
-<div id="navbar">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile dislay -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
-          <li class="active"><a href="about.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> ABOUT</a></li>
-          <li class="dropup">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> GALLERY<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-            <li><a href="#/kitchens" id="kitchens"><strong>Kitchen Gallery</strong></a></li>
-            <li><a href="#/baths" id="baths"><strong>Bath Gallery</strong></a></li>
-            <li><a href="#/living-areas" id="livingRoom"><strong>Living Room Gallery</strong></a></li>
-            <li><a href="#/offices-builtins-others" id="offices"><strong>Offices/Built-Ins/Outdoor</strong></a></li>
-            </ul>
-            <li><a href="https://www.facebook.com/Hampson-Design-Construction-Inc-152874768099551/"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> FACEBOOK</a></li>
-            <li><a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CONTACT US</a></li>
-          </li>
-        </ul>
-        <!--
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://www.facebook.com/Hampson-Design-Construction-Inc-152874768099551/">Facebook</a></li>
-        </ul>
-        -->
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-</div>
-
-
-<!-- About Hampson Design Panel/Box-->
-
-<div class="container">
-  <div class="row">
-            <div class="businessBox">
-                <div class="col-lg-12" id="introHeader">
-                    <hr style="margin-top: -10px; width: 55%; border-color: black;">
-                    <h2><span style="color: darkgrey;">About |</span><strong> Hampson Design</strong></h2>
-                    <hr style=" width: 55%;  border-color: black;">
-                </div>
-                <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="./images/aboutCover.png" alt="" style="float: none; margin: 0 auto; padding-top: 20px;">
-                </div>
-                <div class="col-md-6">
-                    <div class="lead" id="introText" style="color: black; padding-top: 40px;"><p>Located in beautiful Naples, Florida, Hampson Design Construction Inc. is a licensed and insured General Contractor.</p><p> Specializing in Construction Management and Design. By taking the knowledge of 25+ years of construction and renovation experience.</p> <p> Ian Hampson manages client projects to bring that <span style="color: royalblue; text-decoration: underline; font-style: italic;">WOW</span> factor to you.</p></div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-<!-- Old code for about hampson
-
-  <div class="row" id="hampsonDesignFacts">
-    <div class="col-md-2.offset-md-6">
-      <div class="box">
-        <div class="panel" id="aboutText">
-          <div class="panel-title">
-            
-            <h1 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;"><span style="color: darkgrey;">About |</span><strong> Hampson Design</strong></h1>
-          </div>
-            <div class="panel-body">
-              <p>Located in beautiful Naples, Florida, Hampson Design Construction, Inc. is a licensed and insured General Contractor. Specializing in Construction Management and Design. By taking the knowledge of 25+ years of construction and renovation experience, Ian Hampson manages client projects to bring that <span style="color: royalblue;">WOW</span> factor to you.</p>
-            </div>
-        </div>
-      </div>
+  <div class="jumbotron">
+    <div id="content">
+      <h1>Hampson Design Construction Inc.</h1>
+      <p>Naples, FL | <a href="tel:1-239-272-2703">239.272.2703</a></p>
     </div>
   </div>
 
-  -->
+  <div id="navbar">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile dislay -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
 
-</div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
+            <li class="active"><a href="about.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> ABOUT</a></li>
+            <li class="dropup">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> GALLERY<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+              <li><a href="#/kitchens" id="kitchens"><strong>Kitchen Gallery</strong></a></li>
+              <li><a href="#/baths" id="baths"><strong>Bath Gallery</strong></a></li>
+              <li><a href="#/living-areas" id="livingRoom"><strong>Living Room Gallery</strong></a></li>
+              <li><a href="#/offices-builtins-others" id="offices"><strong>Offices/Built-Ins/Outdoor</strong></a></li>
+              </ul>
+              <li><a href="https://www.facebook.com/Hampson-Design-Construction-Inc-152874768099551/"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> FACEBOOK</a></li>
+              <li><a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CONTACT US</a></li>
+            </li>
+          </ul>
+          <!--
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.facebook.com/Hampson-Design-Construction-Inc-152874768099551/">Facebook</a></li>
+          </ul>
+          -->
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </div>
 
 
-<div class="container">
-<!-- OLD STUFF
+  <!-- About Hampson Design Panel/Box-->
 
-  <div class="row" id="hampsonDesignFacts">
-      <div class="col-md-4">
-          <div class=" panel" id="hampsonOne">
+  <div class="container">
+    <div class="row">
+              <div class="businessBox">
+                  <div class="col-lg-12" id="introHeader">
+                      <hr style="margin-top: -10px; width: 55%; border-color: black;">
+                      <h2><span style="color: darkgrey;">About |</span><strong> Hampson Design</strong></h2>
+                      <hr style=" width: 55%;  border-color: black;">
+                  </div>
+                  <div class="col-md-6">
+                      <img class="img-responsive img-border-left" src="./images/aboutCover.png" alt="" style="float: none; margin: 0 auto; padding-top: 20px;">
+                  </div>
+                  <div class="col-md-6">
+                      <div class="lead" id="introText" style="color: black; padding-top: 40px;"><p>Located in beautiful Naples, Florida, Hampson Design Construction Inc. is a licensed and insured General Contractor.</p><p> Specializing in Construction Management and Design. By taking the knowledge of 25+ years of construction and renovation experience.</p> <p> Ian Hampson manages client projects to bring that <span style="color: royalblue; text-decoration: underline; font-style: italic;">WOW</span> factor to you.</p></div>
+                  </div>
+                  <div class="clearfix"></div>
+              </div>
+          </div>
+  <!-- Old code for about hampson
+
+    <div class="row" id="hampsonDesignFacts">
+      <div class="col-md-2.offset-md-6">
+        <div class="box">
+          <div class="panel" id="aboutText">
             <div class="panel-title">
-              <h2 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;">Project Management</h2>
+              
+              <h1 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;"><span style="color: darkgrey;">About |</span><strong> Hampson Design</strong></h1>
             </div>
               <div class="panel-body">
-                   <p>Most Sub-Contractors that we use have worked with Hampson Design Construction for over a decade. We specialize in <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Project Management</span> of Renovation which means that Ian Hampson collaborates and communicates with the client on all the design elements of the project from the beginning till the end, in addition to handling the daily scheduling and management of all site Sub-Contractors.</p>
+                <p>Located in beautiful Naples, Florida, Hampson Design Construction, Inc. is a licensed and insured General Contractor. Specializing in Construction Management and Design. By taking the knowledge of 25+ years of construction and renovation experience, Ian Hampson manages client projects to bring that <span style="color: royalblue;">WOW</span> factor to you.</p>
               </div>
           </div>
+        </div>
       </div>
-      <div class="col-md-4">
-          <div class=" panel" id="hampsonTwo">
-          <div class="panel-title">
-            <h2 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;">Design</h2>
-          </div>
-              <div class="panel-body">
-                   <p>Ian Hampson works with clients on a full-scale <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Design</span> of remodels, that consists of multiple layouts, configuration, selection of flooring, cabinetry, counter-tops, tile and stone, plumbing fixtures, hardware, doors, paint, audio and visual technology, or in which ever way the clients needs can be surpassed.</p>
+    </div>
+
+    -->
+
+  </div>
+
+
+
+  <!-- ********************* Carousel for Kitchens!!! ************************   -->
+
+   <!-- Carousels for viewing projects will be hiding() and showing() -->
+                                  <div class="container">
+                                    <div class="borderKitchens">
+                                      <div class="textOverCarouselKitchen">
+                                        <em><h1 style="text-align: center; margin: 0; padding-bottom: 40px; background: rgba(255,255,255,0.6); color:#2e3033; font-family: 'Arapey', serif;">Kitchen Gallery</h1></em>
+                                      </div>
+
+                                      <div id="myCarouselKitchens" class="carousel slide" data-ride="carousel">
+                                      <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#myCarouselKitchens" data-slide-to="0" class="active"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="1"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="2"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="3"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="4"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="5"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="6"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="7"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="8"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="9"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="10"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="11"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="12"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="13"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="14"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="15"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="16"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="17"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="18"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="19"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="20"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="21"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="22"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="23"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="24"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="25"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="26"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="27"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="28"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="29"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="30"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="31"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="32"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="33"></li>
+                                          <li data-target="#myCarouselKitchens" data-slide-to="34"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+
+                                          <div class="item active">
+                                            <img src="./images/kitchens/unspecified-2.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/IMG_0999.jpg" alt="hampsonKitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/IMG_0998.jpg" alt="kitchen" width="500px">
+                                          </div> 
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/hampHouse.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/fnwef.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/ham2.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/ham4.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/ham5.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mod1.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mod2.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/diesel1.jpg" alt="views" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/diesel2.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/diesel3.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                           <div class="item">
+                                            <img src="./images/kitchens/diesel4.jpg" alt="kitchen" width="500px">
+                                          </div>
+                                          
+                                           <div class="item">
+                                            <img src="./images/kitchens/diesel5.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/dozer1.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/dozer2.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/dozer3.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/dozer4.jpg" alt="kitchen" width="500px">
+                                          </div>  
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/dozer6.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/tank.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/tank1.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/tank2.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/decker.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/decker1.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mayo.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mayo2.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mayo3.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mayo4.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mayo6.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mayo8.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/mayo9.png" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/cal.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/cal1.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/kitchens/cal2.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselKitchens" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselKitchens" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+
+                                      </div>
+                                      
+                                    </div>
+                                  </div>
+  <!--  ****************** End of Carousel for Kitchens!!! *********************** -->
+
+
+
+
+  <!-- ********************* Carousel for BATHS!!! ************************   -->
+
+   <!-- Carousels for viewing projects will be hiding() and showing() -->
+                                  <div class="container">
+                                    <div class="borderBaths">
+                                    <div class="textOverCarouselBaths">
+                                        <em><h1 style="text-align: center; margin: 0; padding-bottom: 40px; background: rgba(255,255,255,0.6); color:#2e3033; font-family: 'Arapey', serif;">Bath Gallery</h1></em>
+                                      </div>
+
+                                      <div id="myCarouselBaths" class="carousel slide" data-ride="carousel">
+                                      <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#myCarouselBaths" data-slide-to="0" class="active"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="1"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="2"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="3"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="4"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="5"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="6"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="7"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="8"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="9"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="10"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="11"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="12"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="13"></li>
+                                          <li data-target="#myCarouselBaths" data-slide-to="14"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+
+                                          <div class="item active">
+                                            <img src="./images/baths/cam.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/cam2.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/cam3.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/cam4.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/ian.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/ian1.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/ian3.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/ian4.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/nom.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/nom1.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/sar.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/sar1.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/jae.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/jae1.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/baths/jae2.jpg" alt="bath" width="500px">
+                                          </div>
+          
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselBaths" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselBaths" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+
+                                      </div>
+                                     
+                                    </div>
+                                  </div>
+  <!--  ****************** End of Carousel for BATHS!!! *********************** -->
+
+
+
+
+  <!-- ********************* Carousel for LIVING ROOMS!!! ************************   -->
+
+   <!-- Carousels for viewing projects will be hiding() and showing() -->
+                                  <div class="container">
+                                    <div class="borderLivingRooms">
+                                    <div class="textOverCarouselLivingRooms">
+                                        <em><h1 style="text-align: center; margin: 0; padding-bottom: 40px; background: rgba(255,255,255,0.6); color:#2e3033; font-family: 'Arapey', serif;">Living Room Gallery</h1></em>
+                                      </div>
+
+                                      <div id="myCarouselLivingRooms" class="carousel slide" data-ride="carousel">
+                                      <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="0" class="active"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="1"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="2"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="3"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="4"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="5"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="6"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="7"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="8"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="9"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="10"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="11"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="12"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="13"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="14"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="15"></li>
+                                          <li data-target="#myCarouselLivingRooms" data-slide-to="16"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+
+                                          <div class="item active">
+                                            <img src="./images/living/beaut.jpg" alt="kitchen" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/beaut1.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/unsimg1screen.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/def1.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/ega.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/ega1.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/jer.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/jer1.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/jer2.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/joe1.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/joe2.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/car.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/car1.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/high.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/IMG_0815_1024.jpg" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/erver.png" alt="bath" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/living/DSC_0023aft.jpg" alt="bath" width="500px">
+                                          </div>
+                                          
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselLivingRooms" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselLivingRooms" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+
+                                      </div>
+                                     
+                                    </div>
+                                  </div>
+  <!--  ****************** End of Carousel for LIVING ROOMS!! *********************** -->
+
+
+  <!-- ********************* Carousel for Offices/Builtsin!!! ************************   -->
+
+   <!-- Carousels for viewing projects will be hiding() and showing() -->
+                                  <div class="container">
+                                    <div class="borderOffices">
+                                    <div class="textOverCarouselOffices">
+                                        <em><h1 style="text-align: center; margin: 0; padding-bottom: 40px; background: rgba(255,255,255,0.6); color:#2e3033; font-family: 'Arapey', serif;">Office | Built-In | Outdoor Gallery</h1></em>
+                                      </div>
+
+                                      <div id="myCarouselOffices" class="carousel slide" data-ride="carousel">
+                                      <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#myCarouselOffices" data-slide-to="0" class="active"></li>
+                                          <li data-target="#myCarouselOffices" data-slide-to="1"></li>
+                                          <li data-target="#myCarouselOffices" data-slide-to="2"></li>
+                                          <li data-target="#myCarouselOffices" data-slide-to="3"></li> 
+                                          <li data-target="#myCarouselOffices" data-slide-to="4"></li>               
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner" role="listbox">
+
+                                          <div class="item active">
+                                            <img src="./images/officeOther/DSCN1686.jpg" alt="office" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/officeOther/IMG_1188_1024.jpg" alt="bath" style="width: 100%; height: 100%;">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/officeOther/IMG_1189_1024.jpg" alt="bath" style="width: 100%; height: 100%;">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/officeOther/office1.png" alt="office" width="500px">
+                                          </div>
+
+                                          <div class="item">
+                                            <img src="./images/officeOther/scerf4ef.png" alt="office" width="500px">
+                                          </div>
+                         
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#myCarouselOffices" role="button" data-slide="prev">
+                                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#myCarouselOffices" role="button" data-slide="next">
+                                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+
+                                      </div>
+                                     
+                                    </div>
+                                  </div>
+  <!--  ****************** End of Carousel for OFFICES || Built- INs!! *********************** -->
+
+
+  <div class="container">
+  <!-- OLD STUFF
+
+    <div class="row" id="hampsonDesignFacts">
+        <div class="col-md-4">
+            <div class=" panel" id="hampsonOne">
+              <div class="panel-title">
+                <h2 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;">Project Management</h2>
               </div>
-          </div>
-      </div>
-      <div class="col-md-4">
-          <div class=" panel" id="hampsonThree">
+                <div class="panel-body">
+                     <p>Most Sub-Contractors that we use have worked with Hampson Design Construction for over a decade. We specialize in <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Project Management</span> of Renovation which means that Ian Hampson collaborates and communicates with the client on all the design elements of the project from the beginning till the end, in addition to handling the daily scheduling and management of all site Sub-Contractors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class=" panel" id="hampsonTwo">
             <div class="panel-title">
-              <h2 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;">Consultations</h2>
+              <h2 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;">Design</h2>
             </div>
-              <div class="panel-body">
-                   <p>If they simply need inspiration or an opinion about the direction they are headed we recommend a <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Consultation</span>.However some clients have an established style for their renovations and don't need a full design or a project management service. Ian consults on remodels like this to assist in narrowing the selection of finishes from flooring, cabinetry, counter tops, tile and stone, lighting, hardware, fixtures and paint to ensure uniformity.</p>
+                <div class="panel-body">
+                     <p>Ian Hampson works with clients on a full-scale <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Design</span> of remodels, that consists of multiple layouts, configuration, selection of flooring, cabinetry, counter-tops, tile and stone, plumbing fixtures, hardware, doors, paint, audio and visual technology, or in which ever way the clients needs can be surpassed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class=" panel" id="hampsonThree">
+              <div class="panel-title">
+                <h2 style="text-align: center; color: black; font-family: 'Habibi', serif; border-bottom: 2px solid black; padding-bottom: 8px;">Consultations</h2>
               </div>
+                <div class="panel-body">
+                     <p>If they simply need inspiration or an opinion about the direction they are headed we recommend a <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Consultation</span>.However some clients have an established style for their renovations and don't need a full design or a project management service. Ian consults on remodels like this to assist in narrowing the selection of finishes from flooring, cabinetry, counter tops, tile and stone, lighting, hardware, fixtures and paint to ensure uniformity.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+  <!-- Contact Form 
+
+  <div class="container" style="max-width: 500px;">
+    <div class="panel panel-default" style="margin-top: 100px;">
+      <div class="panel-heading">
+      <h3 class="panel-title">Contact Form</h3>
+      </div>
+      <div class="panel-body">
+
+        <form method="post" id="contactForm" action="mailto:j-gomez3@hotmail.com" role="form">
+          <div class="form-group">
+            <label for="contactName">Name</label>
+            <input type="text" class="form-control" id="nameInput" placeholder="Enter Name">
           </div>
+
+          <div class="form-group">
+            <label for="contactEmail">E-Mail Address</label>
+            <input type="email" class="form-control" id="emailInput" placeholder="Enter E-Mail">
+          </div>
+
+          <div class="form-group">
+            <label for="contactSubject">Subject</label>
+            <input type="text" class="form-control" id="subjectInput" placeholder="Enter Subject">
+          </div>
+
+          <div class="form-group">
+            <label for="contactMessage">Message</label>
+            <textarea class="form-control" id="messageInput" rows="6"></textarea>
+          </div>
+
+          <button type="button" id="submitForm" class="btn btn-success">Submit</button>
+        </form>
       </div>
-  </div>
-  -->
-
-<!-- Contact Form 
-
-<div class="container" style="max-width: 500px;">
-  <div class="panel panel-default" style="margin-top: 100px;">
-    <div class="panel-heading">
-    <h3 class="panel-title">Contact Form</h3>
-    </div>
-    <div class="panel-body">
-
-      <form method="post" id="contactForm" action="mailto:j-gomez3@hotmail.com" role="form">
-        <div class="form-group">
-          <label for="contactName">Name</label>
-          <input type="text" class="form-control" id="nameInput" placeholder="Enter Name">
-        </div>
-
-        <div class="form-group">
-          <label for="contactEmail">E-Mail Address</label>
-          <input type="email" class="form-control" id="emailInput" placeholder="Enter E-Mail">
-        </div>
-
-        <div class="form-group">
-          <label for="contactSubject">Subject</label>
-          <input type="text" class="form-control" id="subjectInput" placeholder="Enter Subject">
-        </div>
-
-        <div class="form-group">
-          <label for="contactMessage">Message</label>
-          <textarea class="form-control" id="messageInput" rows="6"></textarea>
-        </div>
-
-        <button type="button" id="submitForm" class="btn btn-success">Submit</button>
-      </form>
     </div>
   </div>
-</div>
 
-Contact Form -->
-
+  Contact Form -->
 
 
-<!-- START THE FEATURETTES -->
-<div id="feautretteDeals">
-      <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading" style=" color: black; font-family: 'Habibi', serif; padding-top: 30px;">Project Management</h2>
-          <p class="lead" style="color: black;">Most Sub-Contractors that we use have worked with Hampson Design Construction for over a decade. We specialize in <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Project Management</span> of Renovation which means that Ian Hampson collaborates and communicates with the client on all the design elements of the project from the beginning till the end, in addition to handling the daily scheduling and management of all site Sub-Contractors</p>
+  <!-- START THE FEATURETTES -->
+  <div id="feautretteDeals">
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading" style=" color: black; font-family: 'Habibi', serif; padding-top: 30px;">Project Management</h2>
+            <p class="lead" style="color: black;">Most Sub-Contractors that we use have worked with Hampson Design Construction for over a decade. We specialize in <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Project Management</span> of Renovation which means that Ian Hampson collaborates and communicates with the client on all the design elements of the project from the beginning till the end, in addition to handling the daily scheduling and management of all site Sub-Contractors</p>
+          </div>
+          <div class="col-md-5">
+            <img class="featurette-image img-fluid m-x-auto" src="./images/kitchens/unspecified-2.jpg" alt="Generic placeholder image" style="height: 100%; width: 100%; max-width: auto; box-shadow: 10px 10px 50px  #888888;">
+          </div>
         </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-fluid m-x-auto" src="./images/kitchens/unspecified-2.jpg" alt="Generic placeholder image" style="height: 100%; width: 100%; max-width: auto; box-shadow: 10px 10px 50px  #888888;">
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+        <div class="col-md-5 pull-md-7">
+            <img class="featurette-image img-fluid m-x-auto" src="./images/cabdraw.png" alt="Generic placeholder image"  style="height: 100%; width: 100%; max-width: auto; box-shadow: 10px 10px 50px  #888888;">
+          </div>
+          <div class="col-md-7 push-md-5">
+            <h2 class="featurette-heading" style=" color: black; font-family: 'Habibi', serif; padding-top: 30px;">Design</h2>
+            <p class="lead" style="color: black;">Ian Hampson works with clients on a full-scale <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Design</span> of remodels, that consists of multiple layouts, configuration, selection of flooring, cabinetry, counter-tops, tile and stone, plumbing fixtures, hardware, doors, paint, audio and visual technology, or in which ever way the clients needs can be surpassed..</p>
+          </div>
         </div>
-      </div>
 
-      <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-      <div class="row featurette">
-      <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid m-x-auto" src="./images/cabdraw.png" alt="Generic placeholder image"  style="height: 100%; width: 100%; max-width: auto; box-shadow: 10px 10px 50px  #888888;">
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading" style=" color: black; font-family: 'Habibi', serif; padding-top: 30px;">Consultations</h2>
+            <p class="lead" style="color: black;">If they simply need inspiration or an opinion about the direction they are headed we recommend a <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Consultation</span>.However some clients have an established style for their renovations and don't need a full design or a project management service. Ian consults on remodels like this to assist in narrowing the selection of finishes from flooring, cabinetry, counter tops, tile and stone, lighting, hardware, fixtures and paint to ensure uniformity.</p>
+          </div>
+          <div class="col-md-5">
+              <img class="featurette-image img-fluid m-x-auto" src="./images/consulting.jpeg" alt="Generic placeholder image" style="height: 100%; width: 100%; max-width: auto; box-shadow: 10px 10px 50px  #888888;">        </div>
         </div>
-        <div class="col-md-7 push-md-5">
-          <h2 class="featurette-heading" style=" color: black; font-family: 'Habibi', serif; padding-top: 30px;">Design</h2>
-          <p class="lead" style="color: black;">Ian Hampson works with clients on a full-scale <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Design</span> of remodels, that consists of multiple layouts, configuration, selection of flooring, cabinetry, counter-tops, tile and stone, plumbing fixtures, hardware, doors, paint, audio and visual technology, or in which ever way the clients needs can be surpassed..</p>
+
+        <hr class="featurette-divider">
         </div>
-      </div>
 
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading" style=" color: black; font-family: 'Habibi', serif; padding-top: 30px;">Consultations</h2>
-          <p class="lead" style="color: black;">If they simply need inspiration or an opinion about the direction they are headed we recommend a <span style="text-decoration: underline; color: royalblue; font-style: italic; ">Consultation</span>.However some clients have an established style for their renovations and don't need a full design or a project management service. Ian consults on remodels like this to assist in narrowing the selection of finishes from flooring, cabinetry, counter tops, tile and stone, lighting, hardware, fixtures and paint to ensure uniformity.</p>
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-fluid m-x-auto" src="./images/consulting.jpeg" alt="Generic placeholder image" style="height: 100%; width: 100%; max-width: auto; box-shadow: 10px 10px 50px  #888888;">        </div>
-      </div>
-
-      <hr class="featurette-divider">
-      </div>
-<div class="push"></div>
-</div>
+    <div class="push"></div>
+  </div>
 
 </div>
 
@@ -241,10 +755,6 @@ Contact Form -->
 
 <!-- Javascript -->
 <script src="assets/javascript/app.js"></script>
-<script src="assets/javascript/hampsonDatabase.js"></script>
-
-
-
 
 </body>
 </html>

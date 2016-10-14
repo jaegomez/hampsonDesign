@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-
+/*
 	var galleries = [{
 
 		galleryName: "Kitchen Gallery"
@@ -43,6 +43,8 @@ $(document).ready(function(){
 	}];
 
 	var galleryCount = 0;
+
+	*/
 
 
 	//originally hiding all carousel for sections from showing
@@ -66,11 +68,11 @@ $(document).ready(function(){
 		//checking to see if click was succesful
 		console.log('succes')
 
-		$("#myCarouselKitchens").fadeIn(2000);
-		$(".borderKitchens").show(2000);
+		$("#myCarouselKitchens").fadeIn(1000);
+		$(".borderKitchens").show(1000);
 
 		// this will hide everyone in the Welcome PAGE DIV therefore it will hide myCarousel on the Home page and the textUnder it
-		$(".hideMeWelcomePage").hide(1000);
+		$(".hideMeWelcomePage").hide(500);
 
 		// hides original welcome page carousel
 		// 			$("#myCarousel").hide();
@@ -82,25 +84,25 @@ $(document).ready(function(){
 		// 			$(".border").hide();
 
 		// hides businessBox which is in the About page Where its ABOUT HAMPSON DESIGN
-		$(".businessBox").hide();
+		$(".businessBox").hide(500);
 
 		// hides all the Feauttete boxes which are the ones that say DESIGN, CONSULTATION, And PRoject Management
-		$("#feautretteDeals").hide();
+		$("#feautretteDeals").hide(500);
 
-		$("#myCarouselBaths").hide();
-		$(".borderBaths").hide();
+		$("#myCarouselBaths").hide(500);
+		$(".borderBaths").hide(500);
 
-		$(".borderLivingRooms").hide();
-		$("#myCarouselLivingRooms").hide();
+		$(".borderLivingRooms").hide(500);
+		$("#myCarouselLivingRooms").hide(500);
 
-		$(".borderOffices").hide();
-		$("#myCarouselOffices").hide();
+		$(".borderOffices").hide(500);
+		$("#myCarouselOffices").hide(500);
 		
-		clearGalleryName()
-		showGallery();
+		// clearGalleryName()
+		// showGallery();
 
 	});
-
+/*
 	function showGallery(){
 		$("#galleryName").html(galleries[galleryCount].galleryName);
 		console.log("grrr")
@@ -113,16 +115,18 @@ $(document).ready(function(){
 		console.log("chimp")
 	}
 
+	*/
+
 	// when baths button is clicked on function will run and show the below items
 	$('#baths').click(function(){
 		// checking to see if function is succesful
 		console.log('success again!')
 
-		$("#myCarouselBaths").fadeIn(2000);
-		$(".borderBaths").show(2000);
+		$("#myCarouselBaths").fadeIn(1000);
+		$(".borderBaths").show(1000);
 
 		// this will hide everyone in the Welcome PAGE DIV therefore it will hide myCarousel on the Home page and the textUnder it
-		$(".hideMeWelcomePage").hide(1000);
+		$(".hideMeWelcomePage").hide(500);
 
 		// hides businessBox which is in the About page Where its ABOUT HAMPSON DESIGN
 		$(".businessBox").hide();
@@ -130,17 +134,17 @@ $(document).ready(function(){
 		// hides all the Feauttete boxes which are the ones that say DESIGN, CONSULTATION, And PRoject Management
 		$("#feautretteDeals").hide();
 
-		$(".borderKitchens").hide();
-		$("#myCarouselKitchens").hide();
+		$(".borderKitchens").hide(500);
+		$("#myCarouselKitchens").hide(500);
 
-		$(".borderLivingRooms").hide();
-		$("#myCarouselLivingRooms").hide();
+		$(".borderLivingRooms").hide(500);
+		$("#myCarouselLivingRooms").hide(500);
 
-		$(".borderOffices").hide();
-		$("#myCarouselOffices").hide();	
+		$(".borderOffices").hide(500);
+		$("#myCarouselOffices").hide(500);	
 		
-		clearGalleryName();
-		showGallery();
+		// clearGalleryName();
+		// showGallery();
 
 	});
 
@@ -149,29 +153,29 @@ $(document).ready(function(){
 		// checking to see if function is succesful
 		console.log('success again again!')
 
-		$("#myCarouselLivingRooms").fadeIn(2000);
-		$(".borderLivingRooms").show(2000);
+		$("#myCarouselLivingRooms").fadeIn(1000);
+		$(".borderLivingRooms").show(1000);
 
 		// this will hide everyone in the Welcome PAGE DIV therefore it will hide myCarousel on the Home page and the textUnder it
-		$(".hideMeWelcomePage").hide(1000);
+		$(".hideMeWelcomePage").hide(500);
 
 		// hides businessBox which is in the About page Where its ABOUT HAMPSON DESIGN
-		$(".businessBox").hide();
+		$(".businessBox").hide(500);
 
 		// hides all the Feauttete boxes which are the ones that say DESIGN, CONSULTATION, And PRoject Management
-		$("#feautretteDeals").hide();
+		$("#feautretteDeals").hide(500);
 
-		$(".borderKitchens").hide();
-		$("#myCarouselKitchens").hide();
+		$(".borderKitchens").hide(500);
+		$("#myCarouselKitchens").hide(500);
 
-		$("#myCarouselBaths").hide();
-		$(".borderBaths").hide();
+		$("#myCarouselBaths").hide(500);
+		$(".borderBaths").hide(500);
 
-		$(".borderOffices").hide();
-		$("#myCarouselOffices").hide();
+		$(".borderOffices").hide(500);
+		$("#myCarouselOffices").hide(500);
 		
-		clearGalleryName();
-		showGallery();
+		// clearGalleryName();
+		// showGallery();
 
 	});
 
@@ -179,29 +183,29 @@ $(document).ready(function(){
 		// checking to see if function is succesful
 		console.log('success again again again!')
 
-		$("#myCarouselOffices").fadeIn(2000);
-		$(".borderOffices").show(2000);
+		$("#myCarouselOffices").fadeIn(1000);
+		$(".borderOffices").show(1000);
 
 		// this will hide everyone in the Welcome PAGE DIV therefore it will hide myCarousel on the Home page and the textUnder it
-		$(".hideMeWelcomePage").hide(1000);
+		$(".hideMeWelcomePage").hide(500);
 
 		// hides businessBox which is in the About page Where its ABOUT HAMPSON DESIGN
-		$(".businessBox").hide();
+		$(".businessBox").hide(500);
 
 		// hides all the Feauttete boxes which are the ones that say DESIGN, CONSULTATION, And PRoject Management
-		$("#feautretteDeals").hide();
+		$("#feautretteDeals").hide(500);
 
-		$(".borderKitchens").hide();
-		$("#myCarouselKitchens").hide();
+		$(".borderKitchens").hide(500);
+		$("#myCarouselKitchens").hide(500);
 
-		$("#myCarouselBaths").hide();
-		$(".borderBaths").hide();
+		$("#myCarouselBaths").hide(500);
+		$(".borderBaths").hide(500);
 
-		$(".borderLivingRooms").hide();
-		$("#myCarouselLivingRooms").hide();
+		$(".borderLivingRooms").hide(500);
+		$("#myCarouselLivingRooms").hide(500);
 		
-		clearGalleryName();
-		showGallery();
+		// clearGalleryName();
+		// showGallery();
 
 	});
 

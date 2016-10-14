@@ -41,6 +41,10 @@ $("#submitForm").on("click", function() {
     return false;
 });
 
+/*
+Dont need it to log information anymore was just using it to check for success
+
+
 //Firebase watcher + initial loader HINT: This code behaves similarly to .on("value")
 dataRef.ref().on("child_added", function(childSnapshot) {
     // Log everything that's coming out of snapshot
@@ -48,9 +52,11 @@ dataRef.ref().on("child_added", function(childSnapshot) {
     console.log(childSnapshot.val().email);
     console.log(childSnapshot.val().subject);
     console.log(childSnapshot.val().message);
-    console.log(childSnapshot.val().joinDate);
+    
 
 // Handle the errors
 }, function(errorObject){
     //console.log("Errors handled: " + errorObject.code)
 });
+
+*/
