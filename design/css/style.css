@@ -206,6 +206,24 @@ html, body {
 	letter-spacing: 1px;
 }
 */
+@media (max-width: 767px) {
+  .carousel-indicators,
+  .carousel-indicators li {
+    visibility: hidden;
+  }
+  .textOverCarouselOffices h1 {
+  	font-size: 25px;
+  }
+  .textOverCarouselLivingRooms h1 {
+  	font-size: 25px;
+  }
+  .textOverCarouselBaths h1 {
+   	font-size: 25px;
+  }
+  .textOverCarouselKitchen h1 {
+   	font-size: 25px;
+  }
+}
 
 @media (min-width: 800px) {
 	.aboutText p {
