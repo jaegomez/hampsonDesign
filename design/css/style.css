@@ -6,6 +6,8 @@ html, body {
   background-size: cover;
   height: 100%;
   margin: 0;
+  display: table;
+  width: 100%;
 }
 
 /* Wrapper for page content to push down footer */
@@ -53,15 +55,58 @@ html, body {
 	float: none;
 	color: black;
 }
-.carousel .item {
+
+.carousel .item{
     width: 100%; /*slider width*/
-    max-height: 490px; /*slider height*/
+    max-height: 500px; /*slider height*/
 }
+
 .carousel .item img {
     width: 100%; /*img width */
      /*img height*/
 }
-#myCarousel {
+
+#myCarouselKitchens .item {
+	width: 100%;
+	max-height: 560px;
+}
+
+#myCarouselKitchens .item img {
+	width: 100%;
+	height: 100%;
+}
+
+#myCarouselBaths .item {
+	width: 100%;
+	max-height: 560px;
+}
+
+#myCarouselBaths .item img {
+	width: 100%;
+	height: 100%;
+}
+
+#myCarouselLivingRooms .item img {
+	width: 100%;
+	height: 100%;
+}
+
+#myCarouselLivingRooms .item {
+	width: 100%;
+	max-height: 560px;
+}
+
+#myCarouselOffices .item img {
+	width: 100%;
+	height: 100%;
+}
+
+#myCarouselOffices .item {
+	width: 100%;
+	max-height: 560px;
+}
+
+#myCarousel, #myCarouselKitchens, #myCarouselBaths, #myCarouselLivingRooms, #myCarouselOffices {
 	min-width: 100%;
 }
 .container {
@@ -76,22 +121,54 @@ html, body {
 	max-width: 850px;
 }
 
+.borderKitchens {
+	margin-top: 20px;
+	border-style: solid;
+	border : solid white 10px;
+	margin: 20px auto;
+	max-width: 880px;
+}
+
+.borderBaths {
+	margin-top: 20px;
+	border-style: solid;
+	border : solid white 10px;
+	margin: 20px auto;
+	max-width: 880px;
+}
+
+.borderLivingRooms {
+	margin-top: 20px;
+	border-style: solid;
+	border : solid white 10px;
+	margin: 20px auto;
+	max-width: 880px;
+}
+
+.borderOffices {
+	margin-top: 20px;
+	border-style: solid;
+	border : solid white 10px;
+	margin: 20px auto;
+	max-width: 880px;
+}
+
 #footer {
- 	height: 10px;
+	bottom: 0;
   	background-color: white;
   	text-align: center;
   	opacity: 0.8;
   	font-family: 'Kite One', sans-serif;
   	margin-top: -70px;
+  	display: table-row;
 }
 #footer p{
-  	padding: 45px;
+  	padding: 20px;
   	font-size: 20px;
   	color: black;
 }
 #footer h6{
 	margin: 0 auto;
-	height: 20px;
   	background-color: white;
   	text-align: center;
 }
@@ -155,9 +232,10 @@ html, body {
 	font-size: 19px;
 	color: black;
 }
+
 #footer,
 .push {
-	height: 130px;
+	height: 80px;
 }
 
 .businessBox {
@@ -170,7 +248,6 @@ html, body {
 #introText {
 	color: black;
 	
-	
 }
 #introHeader h2 {
 	text-align: center;
@@ -178,5 +255,18 @@ html, body {
 	font-family: 'Habibi', serif; 
 	padding-bottom: 1px;
 	font-size: 20px;
+}
+.wrapperFooter {
+	padding: 20px;
+	height: auto;
+}
+
+.galleryDescriptions {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	border-style: solid;
+	border-color: white;
+	border-width: 40px;
 }
 

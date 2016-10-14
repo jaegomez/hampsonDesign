@@ -84,18 +84,18 @@ $(document).ready(function(){
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-        <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
+        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> HOME</a></li>
+          <li><a href="about.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> ABOUT</a></li>
           <li class="dropup">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALLERY<span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> GALLERY<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Kitchens</a></li>
-              <li><a href="#">Baths</a></li>
-              <li><a href="#">Living Room Gallery</a></li>
-              <li><a href="#">Offices/Built-Ins</a></li>
+              <li><a href="#/kitchens" id="kitchens"><strong>Kitchen Gallery</strong></a></li>
+              <li><a href="#/baths" id="baths"><strong>Bath Gallery</strong></a></li>
+              <li><a href="#/living-areas" id="livingRoom"><strong>Living Room Gallery</strong></a></li>
+              <li><a href="#/offices-builtins-others" id="offices"><strong>Offices/Built-Ins/Outdoor</strong></a></li>
             </ul>
-            <li><a href="https://www.facebook.com/Hampson-Design-Construction-Inc-152874768099551/">FACEBOOK</a></li>
-            <li class="active"><a href="contact.html">CONTACT US</a></li>
+            <li><a href="https://www.facebook.com/Hampson-Design-Construction-Inc-152874768099551/"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> FACEBOOK</a></li>
+            <li class="active"><a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> CONTACT US</a></li>
           </li>
         </ul>
         <!--
@@ -157,8 +157,10 @@ $(document).ready(function(){
 </div>
 
 <footer id="footer">
+  <div class="wrapperFooter">
     <p>Copyright &copy; Hampson Design</p>
     <h6>Designed by: <a href="https://github.com/jaegomez">Julio Gomez</a></h6>
+  </div>
 </footer>
 
 
