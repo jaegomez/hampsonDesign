@@ -1,5 +1,5 @@
 html, body { 
-  background: url(file:///Users/juliogomez/Desktop/WebDev/hampsonDesign/images/blueish.jpg) no-repeat center center fixed; 
+  background: url("http://protiumdesign.com/wp-content/uploads/2015/01/Triangle-Shiny-Modern-Background-1024.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
