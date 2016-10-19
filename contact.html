@@ -6,9 +6,11 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.10.0/validate.min.js"></script>
 
 	<!-- Google Font links -->
   <link href="https://fonts.googleapis.com/css?family=Habibi" rel="stylesheet">
@@ -16,6 +18,7 @@
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" type="text/css" href="design/css/style.css">
 
@@ -583,46 +586,67 @@
                                     </div>
                                   </div>
   <!--  ****************** End of Carousel for OFFICES || Built- INs!! *********************** -->
+ 
 
+<div class="container">
 
+    <div class="row">
 
+      <div class="col-lg-8 col-lg-offset-2">
 
+        <h1>Contact</h1>
+        <hr>
 
-  <div class="container">
-    <div class="panel panel-default" style="margin-top: 50px;">
-      <div class="panel-heading">
-      <h3 class="panel-title">Contact Form</h3>
-      </div>
-      <div class="panel-body">
-
-        <form method="post" id="contactForm">
+        <form action="https://formspree.io/j-gomez3@hotmail.com" method="POST" id="contactForm">
         
-          <div class="form-group">
-            <label for="contactName">Name</label>
-            <input type="text" class="form-control" id="nameInput" placeholder="Enter Name">
+          <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_name">First Name *</label>
+                        <input id="firstNameInput" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_lastname">Last Name *</label>
+                        <input id="lastNameInput" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required">
+                    </div>
+                </div>
+          </div>
+          <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_email">E-mail *</label>
+                        <input id="emailInput" type="email" name="email" class="form-control" placeholder="Please enter your email address *" required="required">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="form_phone">Phone Number *</label>
+                        <input id="phoneInput" type="tel" name="phone" class="form-control" placeholder="Please enter your phone *">
+                    </div>
+                </div>
+          </div>
+          <div class="row">
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="form_message">Message *</label>
+                        <textarea id="messageInput" name="message" class="form-control" placeholder="Please enter message *" rows="6" required="require"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input id="submitForm" name="Send" type="submit" class="btn btn-success btn-send">
+                </div>
           </div>
 
-          <div class="form-group">
-            <label for="contactEmail">E-Mail Address</label>
-            <input type="email" class="form-control" id="emailInput" placeholder="Enter E-Mail">
-          </div>
-
-          <div class="form-group">
-            <label for="contactSubject">Subject</label>
-            <input type="text" class="form-control" id="subjectInput" placeholder="Enter Subject">
-          </div>
-
-          <div class="form-group">
-            <label for="contactMessage">Message</label>
-            <textarea class="form-control" id="messageInput" rows="6"></textarea>
-          </div>
-
-          <button type="button" id="submitForm" class="btn btn-success" onClick="window.location.href=window.location.href">Submit</button>
-          
         </form>
       </div>
+
     </div>
-  </div>
+
+</div>
+
+
 
  <div class="push"></div>
 
@@ -636,13 +660,8 @@
 </footer>
 
 
-<!-- Javascript -->
-<script src="assets/javascript/hampsonDatabase.js"></script>
-<script src="assets/javascript/app.js"></script>
-<!--
-<script src="assets/javascript/formVal.js"></script>
--->
-
-
-</body>
+  <!-- Javascript -->
+  <script src="assets/javascript/hampsonDatabase.js"></script>
+  <script src="assets/javascript/app.js"></script>
+  </body>
 </html>

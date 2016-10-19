@@ -13,9 +13,10 @@ var dataRef = firebase.database();
 
 
 // Initial Values
-var name = "";
+var firstName = "";
+var lastName = "";
 var email = "";
-var subject = "";
+var phoneNumber = "";
 var message = "";
 
 
@@ -23,17 +24,19 @@ var message = "";
 $("#submitForm").on("click", function() {
 
     // Dont forget to provide initial data to your Firebase database.
-    name = $('#nameInput').val().trim();
+    firstName = $('#firstNameInput').val().trim();
+    lastName = $('#lastNameInput').val().trim();
     email = $('#emailInput').val().trim();
-    subject = $('#subjectInput').val().trim();
+    phoneNumber = $('#phoneInput').val().trim();
     message = $('#messageInput').val().trim();
 
 
     // Code for the push
     dataRef.ref().push({
-        name: name,
+        firstName: firstName,
+        lastName: lastName,
         email: email,
-        subject: subject,
+        phoneNumber: phoneNumber,
         message: message,
         dateAdded: firebase.database.ServerValue.TIMESTAMP
     });
