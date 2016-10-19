@@ -10,8 +10,6 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-   <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.10.0/validate.min.js"></script>
-
 	<!-- Google Font links -->
   <link href="https://fonts.googleapis.com/css?family=Habibi" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Kite+One" rel="stylesheet">
@@ -587,63 +585,64 @@
                                   </div>
   <!--  ****************** End of Carousel for OFFICES || Built- INs!! *********************** -->
  
+<div  style="background-color: #3D5265; margin-top: -37px; margin-bottom: -80px;">
+  <div class="container">
 
-<div class="container">
+      <div class="row">
 
-    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2"  style="padding-top: 60px; padding-bottom: 40px;">
 
-      <div class="col-lg-8 col-lg-offset-2">
+          <h1 style="text-align: center; color: white;">Contact</h1>
+          <hr style="color: silver;">
 
-        <h1 style="text-align: center; color: black;">Contact</h1>
-        <hr style="color: silver;">
+          <form action="https://formspree.io/j-gomez3@hotmail.com" method="POST" id="contactForm">
 
-        <form action="https://formspree.io/j-gomez3@hotmail.com" method="POST" id="contactForm">
+            <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_name" style="font-size: 15px; color: white;">First Name *</label>
+                          <input id="firstNameInput" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_lastname" style="font-size: 15px; color: white;">Last Name *</label>
+                          <input id="lastNameInput" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required">
+                      </div>
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_email" style="font-size: 15px; color: white;">E-mail *</label>
+                          <input id="emailInput" type="email" name="email" class="form-control" placeholder="Please enter your email address *" required="required">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="form_phone" style="font-size: 15px; color: white;">Phone Number</label>
+                          <input id="phoneInput" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                      </div>
+                  </div>
+            </div>
+            <div class="row">
+                  <div class="col-md-12">
+                      <div class="form-group">
+                          <label for="form_message" style="font-size: 15px; color: white;">Message *</label>
+                          <textarea id="messageInput" name="message" class="form-control" placeholder="Please enter message *" rows="6" required="require"></textarea>
+                      </div>
+                  </div>
+                  <div class="col-md-12">
+                      <input  name="Send" type="submit" class="btn btn-success btn-send">
+                  </div>
+            </div>
 
-          <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_name" style="font-size: 15px;">First Name *</label>
-                        <input id="firstNameInput" type="text" name="name" class="form-control" placeholder="Please enter your first name *" required="required">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_lastname" style="font-size: 15px;">Last Name *</label>
-                        <input id="lastNameInput" type="text" name="surname" class="form-control" placeholder="Please enter your last name *" required="required">
-                    </div>
-                </div>
-          </div>
-          <div class="row">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_email" style="font-size: 15px;">E-mail *</label>
-                        <input id="emailInput" type="email" name="email" class="form-control" placeholder="Please enter your email address *" required="required">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="form_phone" style="font-size: 15px;">Phone Number *</label>
-                        <input id="phoneInput" type="tel" name="phone" class="form-control" placeholder="Please enter your phone *">
-                    </div>
-                </div>
-          </div>
-          <div class="row">
-                <div class="col-md-12">
-                    <div class="form-group">
-                        <label for="form_message" style="font-size: 15px;">Message *</label>
-                        <textarea id="messageInput" name="message" class="form-control" placeholder="Please enter message *" rows="6" required="require"></textarea>
-                    </div>
-                </div>
-                <div class="col-md-12">
-                    <input  name="Send" type="submit" class="btn btn-success btn-send" class="submitForm">
-                </div>
-          </div>
+          </form>
+        </div>
 
-        </form>
       </div>
 
-    </div>
-
+  </div>
 </div>
 
 
@@ -661,7 +660,12 @@
 
 
   <!-- Javascript -->
+
+  <!--
+  Database not activated at the moment
+
   <script src="assets/javascript/hampsonDatabase.js"></script>
+  -->
   <script src="assets/javascript/app.js"></script>
   </body>
 </html>
