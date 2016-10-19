@@ -21,7 +21,7 @@ var message = "";
 
 
 // Capture Button Click
-$("#submitForm").on("click", function() {
+$(".submitForm").on("click", function() {
 
     // Dont forget to provide initial data to your Firebase database.
     firstName = $('#firstNameInput').val().trim();
